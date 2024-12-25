@@ -15,8 +15,8 @@ int main(){
         printf("|7. Sắp xếp mảng theo thứ tự giảm dần          |\n");
         printf("|8. Tìm kiếm phần tử trong mảng                |\n");
         printf("|9. In ra các số nguyên tố trong mảng          |\n");
-        printf("|10. Sắp xếp mảng theo thứ tự tăng dần         |\n");
-        printf("|11. Thoát                                     |\n");
+        printf("|10.Sắp xếp mảng theo thứ tự tăng dần          |\n");
+        printf("|11.Thoát                                      |\n");
         printf("------------------------------------------------\n");
         printf("Mời bạn chọn: ");
         scanf("%d", &choice);
@@ -177,6 +177,7 @@ int main(){
                 for (int i=0;i<n;i++){
                     printf("%d ", arr[i]);
                 }
+                printf("\n");
                 break;
                 case 11: break;
                 default: printf("Lựa chọn không hợp lệ!\n");
